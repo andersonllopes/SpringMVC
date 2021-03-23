@@ -1,0 +1,27 @@
+<head th:fragment="head">
+	<meta charset="UTF-8">
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@600&display=swap" rel="stylesheet">
+	<style>
+		.navbar-brand {
+		font-family: 'Orbitron', sans-serif;
+		}
+	</style>
+</head>
+
+
+<nav th:fragment="logo" class="shadow-lg  bg-white rounded ">
+	<div class="container-fluid p-3 mb-4 d-flex justify-content-between">
+		<a class="navbar-brand" href="/home"><img src="https://images.vexels.com/media/users/3/200097/isolated/preview/942820836246f08c2d6be20a45a84139-carrinho-de-compras-icon-carrinho-de-compras-by-vexels.png"	alt="" width="40" height="34" class="d-inline-block align-top">  Lojas Malakoi</a>
+		<a class="navbar-brand" href="#">Login</a>
+	</div>
+</nav>
+
+<div th:fragment="jumbo" class="jumbotron jumbotron-fluid mb-0">
+    	<img src="https://www.mixadesivos.com.br/util/img/frete-gratis-ultimos-dias.gif" width="1115" height="250">
+</div>
+
+<div th:fragment="jumbo1" class="jumbotron jumbotron-fluid mb-0">
+	<h1 class="display-4">Novo Pedido</h1>
+</div>
